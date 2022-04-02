@@ -13,5 +13,9 @@ int main() {
     t.PutItem(19);
     t.PutItem(14);
 
-    cout << t.GetLength() << endl;
+    t.PrintTree();
+    cout << "Delete 10" << endl;
+    t.DeleteItem(10);
+    t.PrintTree();
+
 }
